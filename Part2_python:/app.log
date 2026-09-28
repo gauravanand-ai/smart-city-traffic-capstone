@@ -1,0 +1,3 @@
+2026-09-20 09:41:13 | INFO     | __main__ | Command invoked: 'busiest' with arguments: {'input': PosixPath('/home/claude/capstone/pipeline/traffic_features.csv'), 'log_file': PosixPath('/home/claude/capstone/pipeline/app.log'), 'verbose': False, 'command': 'busiest', 'top': 5, 'day_type': 'weekday'}
+2026-09-20 09:41:13 | INFO     | __main__ | Loaded dataset: 40575 rows, 34 columns (source: traffic_features.csv)
+2026-09-20 09:41:13 | INFO     | __main__ | Command 'busiest' completed successfully
