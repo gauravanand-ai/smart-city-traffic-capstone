@@ -1,0 +1,13 @@
+feature_group,label,mean_abs_shap,correlation_with_shap,direction,cyclical
+lag_1,traffic volume one hour earlier,1500.0568457593004,0.9862167301076076,higher,False
+hour_of_day,hour of day (cyclical encoding),321.8271859302573,,,True
+lag_24,"traffic volume 24 hours earlier (same hour, previous day)",195.16808859165025,0.8386164885532132,higher,False
+roll_mean_6,average traffic over the past 6 hours,87.17460381653089,-0.5470399313045553,lower,False
+day_of_week,day of week (cyclical encoding),29.271029578522743,,,True
+is_weekend,whether it's a weekend,21.633036644052357,-0.7382405506752675,lower,False
+roll_mean_24,average traffic over the past 24 hours,17.371237107971517,0.7780816140261936,higher,False
+temp_zscore,temperature (standardized),5.632342532487212,0.0017532725471816123,higher,False
+is_low_visibility,whether visibility is reduced (fog/mist/haze/smoke),0.26567002199831924,-0.4351039581250595,lower,False
+is_precipitating,whether it's raining/snowing,0.23422231217541908,-0.45733105322157813,lower,False
+is_severe_weather,whether there's severe weather (thunderstorm/squall),0.00309719624730953,0.032928507089083695,higher,False
+holiday_flag,whether it's a recognized holiday,0.0005286494759191607,-0.6593479667063913,lower,False
