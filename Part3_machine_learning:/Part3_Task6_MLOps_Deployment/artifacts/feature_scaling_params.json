@@ -1,0 +1,8 @@
+{
+  "temp_mean": 281.38185044978434,
+  "temp_std": 13.09429940640802,
+  "clouds_min": 0.0,
+  "clouds_max": 100.0,
+  "source_csv": "/home/claude/capstone/pipeline/traffic_features.csv",
+  "source_rows": 40575
+}

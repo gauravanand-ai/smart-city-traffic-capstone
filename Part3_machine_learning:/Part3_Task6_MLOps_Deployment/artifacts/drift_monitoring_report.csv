@@ -1,0 +1,13 @@
+window,kind,check,value,reference_value,threshold,extra,status
+test_period,feature_drift,ks_temp,0.10345040049291437,0.0,ks_stat > 0.15 (and p < 0.05),p_value=6.047e-61,PASS
+test_period,feature_drift,ks_clouds_all,0.06759088108441158,0.0,ks_stat > 0.15 (and p < 0.05),p_value=3.124e-26,PASS
+test_period,feature_drift,psi_hour_of_day,0.00034460485303198,0.0,> 0.25,,PASS
+test_period,feature_drift,psi_weather_main,0.04609512127054778,0.0,> 0.25,,PASS
+test_period,prediction_error_drift,classifier_f1_drift,0.9525731584258325,0.9755501222493888,"reference F1=0.976, drop > 0.05",drop=0.023,PASS
+test_period,prediction_error_drift,regressor_mae_drift,267.93980062107346,241.24160385400612,"reference MAE=241.2, increase > 25%",increase=11.1%,PASS
+synthetic_severe_winter,feature_drift,ks_temp,0.4832101047443007,0.0,ks_stat > 0.15 (and p < 0.05),p_value=0.000e+00,ALERT
+synthetic_severe_winter,feature_drift,ks_clouds_all,0.45659272951324714,0.0,ks_stat > 0.15 (and p < 0.05),p_value=0.000e+00,ALERT
+synthetic_severe_winter,feature_drift,psi_hour_of_day,0.003171561400564387,0.0,> 0.25,,PASS
+synthetic_severe_winter,feature_drift,psi_weather_main,5.513532948177341,0.0,> 0.25,,ALERT
+synthetic_severe_winter,prediction_error_drift,classifier_f1_drift,0.17748344370860927,0.9755501222493888,"reference F1=0.976, drop > 0.05",drop=0.798,ALERT
+synthetic_severe_winter,prediction_error_drift,regressor_mae_drift,317.2884754883525,241.24160385400614,"reference MAE=241.2, increase > 25%",increase=31.5%,ALERT
