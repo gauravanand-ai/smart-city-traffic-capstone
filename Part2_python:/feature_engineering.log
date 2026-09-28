@@ -1,0 +1,9 @@
+2026-09-20 08:33:41 | INFO     | __main__ | Loaded cleaned dataset: 40575 rows, 9 columns (source: traffic_cleaned_pipeline.csv)
+2026-09-20 08:33:41 | INFO     | __main__ | Feature engineering input shape: 40575 rows, 9 columns
+2026-09-20 08:33:41 | INFO     | __main__ | Added time features: hour, day_of_week, day_name, is_weekend, hour_sin/hour_cos (cyclical, period 24), dow_sin/dow_cos (cyclical, period 7)
+2026-09-20 08:33:41 | INFO     | __main__ | Added weather features: 11 one-hot 'weather_*' column(s) from weather_main, plus derived indicators is_precipitating, is_severe_weather, is_low_visibility
+2026-09-20 08:33:41 | INFO     | __main__ | Added scaled numeric features: temp_zscore (z-score standardized), clouds_all_minmax (min-max scaled to [0, 1])
+2026-09-20 08:33:41 | INFO     | __main__ | Created data-driven 'congestion_category' target (quartile-based, 4 bins) from traffic_volume: {'Low': 10144, 'Medium': 10144, 'High': 10145, 'Very High': 10142}
+2026-09-20 08:33:41 | INFO     | __main__ | Feature engineering output shape: 40575 rows, 34 columns
+2026-09-20 08:33:42 | INFO     | __main__ | Wrote feature-engineered dataset to /home/claude/capstone/pipeline/traffic_features.csv: 40575 rows, 34 columns
+2026-09-20 08:33:42 | INFO     | __main__ | Feature engineering completed successfully
