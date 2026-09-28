@@ -1,0 +1,9 @@
+2026-09-20 08:47:48 | INFO     | __main__ | Loaded feature-engineered dataset: 40575 rows, 34 columns (source: traffic_features.csv)
+2026-09-20 08:47:48 | INFO     | __main__ | Saved figure: /home/claude/capstone/pipeline/figures/01_traffic_by_hour_weekday_vs_weekend.png
+2026-09-20 08:47:48 | INFO     | __main__ | Saved figure: /home/claude/capstone/pipeline/figures/02_weekday_vs_weekend_distribution.png
+2026-09-20 08:47:48 | INFO     | __main__ | Saved figure: /home/claude/capstone/pipeline/figures/03_traffic_by_weather_condition.png
+2026-09-20 08:47:48 | INFO     | __main__ | Saved figure: /home/claude/capstone/pipeline/figures/04_temperature_vs_traffic_scatter.png
+2026-09-20 08:47:48 | INFO     | __main__ | Saved figure: /home/claude/capstone/pipeline/figures/05_traffic_volume_distribution.png
+2026-09-20 08:47:49 | INFO     | __main__ | Saved figure: /home/claude/capstone/pipeline/figures/06_congestion_over_time.png
+2026-09-20 08:47:49 | INFO     | __main__ | Wrote interpretations summary: /home/claude/capstone/pipeline/figures/interpretations.md
+2026-09-20 08:47:49 | INFO     | __main__ | Visualisation completed successfully: 6 figure(s) written to /home/claude/capstone/pipeline/figures
